@@ -150,7 +150,7 @@ export default function HomePage() {
         variant="outline" 
         size="icon" 
         className="fixed top-4 left-4 z-50"
-        onClick={() => router.push('https://6000-firebase-studio-1747578327375.cluster-zkm2jrwbnbd4awuedc2alqxrpk.cloudworkstations.dev/')}
+        onClick={() => router.push('https://ankits1802-autosql.vercel.app/')}
         aria-label="Go back"
       >
         <ArrowLeft className="h-5 w-5" />
@@ -238,12 +238,12 @@ export default function HomePage() {
           <div className="flex items-center space-x-4">
             <span>Version 1.0.0</span>
             <span className="flex items-center">
-              Made with <Heart className="w-4 h-4 mx-1 text-red-500 fill-current transition-all duration-300 ease-in-out hover:scale-150 hover:drop-shadow-[0_0_6px_#ef4444]" /> by TransactionFlow Team
+              Made with <Heart className="w-4 h-4 mx-1 text-red-500 fill-current transition-all duration-300 ease-in-out hover:scale-150 hover:drop-shadow-[0_0_6px_#ef4444]" /> by AutoSQL Team
             </span>
-            <a href="https://github.com/your-org/transactionflow-analyzer" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository" className="hover:text-primary">
+            <a href="https://github.com/ankits1802/" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository" className="hover:text-primary">
               <Github className="w-5 h-5" />
             </a>
-            <a href="https://your-project-website.com" target="_blank" rel="noopener noreferrer" aria-label="Project Website" className="hover:text-primary">
+            <a href="ankits1802-autosql.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="Project Website" className="hover:text-primary">
               <ExternalLink className="w-5 h-5" />
             </a>
           </div>
